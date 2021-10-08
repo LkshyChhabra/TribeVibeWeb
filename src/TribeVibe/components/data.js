@@ -9,7 +9,7 @@ const society = [{
 {
     key:3,
     "name" : "Mudra",
-    "img" : ["./TribeVibe/Assets/socieites/mudra/mudra-1.jpg", "./TribeVibe/Assets/socieites/mudra/mudra-2.png", "./TribeVibe/Assets/socieites/mudra/mudra-3.png",],
+    "img" : ["../Assets/socieites/mudra/mudra-1.jpg", "../Assets/socieites/mudra/mudra-2.png", "../Assets/socieites/mudra/mudra-3.png",],
 //     "img2" : "./TribeVibe/Assets/socieites/mudra/mudra-2.png",
 //     "img3" : "./TribeVibe/Assets/socieites/mudra/mudra-3.png",
     "desc" : "Hey Juniors, Get ready for the most exciting event of Tribe Vibe. Mudra Society invites you to Razzle Dazzle, a fun-filled event with loads of games and many rewards. We indeed have something in store for all of you. Our team knows you all are stressed about your college life. Thus, MUDRA remains true to its vision and comes to rescue you out of tedious coding and studies. "
@@ -27,7 +27,7 @@ const society = [{
 {
     key:5,
     "name" : "Rotract",
-    "img1" : ["./TribeVibe/Assets/socieites/Rotract/Rotract-1.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-2.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-3.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-4.jpeg",],
+    "img" : ["./TribeVibe/Assets/socieites/Rotract/Rotract-1.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-2.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-3.jpeg", "./TribeVibe/Assets/socieites/Rotract/Rotract-4.jpeg",],
 //     "img2" : "./TribeVibe/Assets/socieites/Rotract/Rotract-2.jpeg",
 //     "img3" : "./TribeVibe/Assets/socieites/Rotract/Rotract-3.jpeg",
 //     "img4" : "./TribeVibe/Assets/socieites/Rotract/Rotract-4.jpeg",
