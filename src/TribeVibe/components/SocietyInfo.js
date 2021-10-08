@@ -45,25 +45,20 @@ const Container = styled.section`
 `;
 
 function Soc() {
+
   let { id:societyKey } = useParams(); 
-  console.log(societyKey)
-
+  // console.log(societyKey)
   const socToDis = society[societyKey]
-  console.log(socToDis)
+  // console.log(socToDis)
 
+  let images = socToDis.img;
+  let list = images.map((item, index) => (<ImgWrapper key={index}><Img src={item} alt="Image"/></ImgWrapper>))
+  // console.log(society[1])
   return <Container> 
     <Wrapper>
-      <Carousel autoPlay showArrows={false} showStatus={false}>
-        <ImgWrapper>
-            <Img src={socToDis.img3} alt="Image 1"/>
-        </ImgWrapper>
-        <ImgWrapper>
-            <Img src={socToDis.img3} alt="Image 2"/>
-        </ImgWrapper>
-        <ImgWrapper>
-            <Img src={socToDis.img3} alt="Image 3"/>
-        </ImgWrapper>
-        </Carousel>
+      <Carousel autoPlay showArrows={false} showStatus={false} showThumbs={false} infiniteLoop={true} dynamicHeight={true} interval={3000}>
+        {list}
+      </Carousel>
       <Title>
           Society - {socToDis.name}
       </Title>
