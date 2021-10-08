@@ -9,7 +9,7 @@ const society = [{
 {
     key:3,
     "name" : "Mudra",
-    "img" : ["../Assets/societes/mudra/mudra-1.jpg", "../Assets/societes/mudra/mudra-2.png", "../Assets/societes/mudra/mudra-3.png",],
+    "img" : ["../Assets/societies/mudra/mudra-1.JPG", "../Assets/societies/mudra/mudra-2.png", "../Assets/societes/mudra/mudra-3.png",],
 //     "img2" : "./TribeVibe/Assets/socieites/mudra/mudra-2.png",
 //     "img3" : "./TribeVibe/Assets/socieites/mudra/mudra-3.png",
     "desc" : "Hey Juniors, Get ready for the most exciting event of Tribe Vibe. Mudra Society invites you to Razzle Dazzle, a fun-filled event with loads of games and many rewards. We indeed have something in store for all of you. Our team knows you all are stressed about your college life. Thus, MUDRA remains true to its vision and comes to rescue you out of tedious coding and studies. "
