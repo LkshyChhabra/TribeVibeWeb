@@ -47,24 +47,28 @@ const Container = styled.section`
 function Soc() {
   let { id:societyKey } = useParams(); 
   console.log(societyKey)
+
+  const socToDis = society[societyKey]
+  console.log(socToDis)
+
   return <Container> 
     <Wrapper>
       <Carousel autoPlay showArrows={false} showStatus={false}>
         <ImgWrapper>
-            <Img src={society[0].img3} alt="Image 1"/>
+            <Img src={socToDis.img3} alt="Image 1"/>
         </ImgWrapper>
         <ImgWrapper>
-            <Img src={society[0].img3} alt="Image 2"/>
+            <Img src={socToDis.img3} alt="Image 2"/>
         </ImgWrapper>
         <ImgWrapper>
-            <Img src={society[0].img3} alt="Image 3"/>
+            <Img src={socToDis.img3} alt="Image 3"/>
         </ImgWrapper>
         </Carousel>
       <Title>
-          Society - {society[0].name}
+          Society - {socToDis.name}
       </Title>
       <Desc>
-          {society[0].desc}
+          {socToDis.desc}
       </Desc>
     </Wrapper>
   </Container>     
