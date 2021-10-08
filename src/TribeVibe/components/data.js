@@ -18,18 +18,19 @@ Here at Rotaract you don't only get the chance to become an exemplary leader but
 },
 {
     key:3,
-    "name" : "backslash",
-    "img1" : "Screenshot.png",
-    "img2" : "Screenshot.png",
-    "img3" : "Screenshot.png",
-    "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar eros arcu, id aliquet lacus vulputate dapibus. Morbi felis massa, faucibus vel sapien non, vulputate convallis eros. Nunc mi arcu, fringilla at nulla eget."
+    "name" : "Mudra",
+    "img1" : "./TribeVibe/Assets/socieites/mudra/mudra-1.jpeg",
+    "img2" : "./TribeVibe/Assets/socieites/mudra/mudra-2.jpeg",
+    "img3" : "./TribeVibe/Assets/socieites/mudra/mudra-3.jpeg",
+    "desc" : "Hey Juniors,
+Get ready for the most exciting event of Tribe Vibe. Mudra Society invites you to Razzle Dazzle, a fun-filled event with loads of games and many rewards. We indeed have something in store for all of you. Our team knows you all are stressed about your college life. Thus, MUDRA remains true to its vision and comes to rescue you out of tedious coding and studies. "
 },
 {
     key:4,
     "name" : "backslash",
-    "img1" : "Screenshot.png",
-    "img2" : "Screenshot.png",
-    "img3" : "Screenshot.png",
+    "img1" : "./TribeVibe/Assets/socieites/Rotract/Rotract-1.jpeg",
+    "img2" : "./TribeVibe/Assets/socieites/Rotract/Rotract-1.jpeg",
+    "img3" : "./TribeVibe/Assets/socieites/Rotract/Rotract-1.jpeg",
     "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar eros arcu, id aliquet lacus vulputate dapibus. Morbi felis massa, faucibus vel sapien non, vulputate convallis eros. Nunc mi arcu, fringilla at nulla eget."
 },
 {
