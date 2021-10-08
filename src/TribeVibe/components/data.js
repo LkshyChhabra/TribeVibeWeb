@@ -27,8 +27,10 @@ const society = [{
     key:5,
     "name" : "FAPS",
     "img1" : "./TribeVibe/Assets/socieites/faps/faps-1.jpg",
-    "img2" : "./TribeVibe/Assets/socieites/faps/faps-1.jpg",
-    "img3" : "./TribeVibe/Assets/socieites/faps/faps-1.jpg",
+    "img2" : "./TribeVibe/Assets/socieites/faps/faps-2.jpg",
+    "img3" : "./TribeVibe/Assets/socieites/faps/faps-3.jpg",
+    "img4" : "./TribeVibe/Assets/socieites/faps/faps-4.jpg",
+    "img5" : "./TribeVibe/Assets/socieites/faps/faps-5.jpg",
     "desc" : "College Life is indeed incomplete without pursuing one's passion. FAPS Derabassi is here to fix this never-ending problem. We are a team of skilled and creative individuals who strive to bring exceptional opportunities to everyone around us. FAPS Derabassi is a Citadel for Fine Arts, Photography, and Design to flourish. It is the perfect platform to showcase your talent and grow as an Individual. We aim to create a community of like-minded artists who love to express their emotions through their Artwork."
 }
 ]
