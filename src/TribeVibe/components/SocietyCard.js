@@ -20,7 +20,7 @@ const img2 = require("../Assets/societies/BackslashLogo.png")
 const img3 = require("../Assets/societies/MudraLogo.png")
 const img4 = require("../Assets/societies/FAPSLogo.png")
 const img5 = require("../Assets/societies/RotaractLogo.png")
-const img6 = require("../Assets/societies/mlsc_logo.png")
+const img6 = require("../Assets/societies/ToastmasterLogo.png")
 
 // const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const glassMorphStyle = {
@@ -124,7 +124,7 @@ const ConditionalLink = ({ children , id })=> {
   else if(id === 5)
   {
     // Toastmaster
-    return(<a href="" style={{ textDecoration: 'none' }}>{ children }</a>)
+    return(<a href="https://www.toastmasters.org/" style={{ textDecoration: 'none' }}>{ children }</a>)
   }
   else
   {
@@ -161,8 +161,10 @@ export default function SocietyCard() {
               direction="row"
               spacing={2}
               justifyContent="center"
-            >
-              <Button variant="contained">Tribe Vibe on Instagram</Button>
+            > 
+              <a href="https://www.instagram.com/tribevibe2021/"style={{ textDecoration: 'none' }}>
+                <Button variant="contained">Tribe Vibe on Instagram</Button>
+              </a>
               <Link to="/" style={{ textDecoration: 'none' }}>
                 <Button color="secondary" variant="outlined">Back to homepage</Button>
               </Link>

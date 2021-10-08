@@ -149,7 +149,7 @@ const card =(props)=>{
                  TRIBE VIBE
              </Aux>
              
-             <Link to="/societies">
+             <Link to="/societies" style={{ textDecoration: 'none' }}>
                 <Btn style={{
                     transform: props.xys.xys.interpolate(btnTrans)
                     }}>
