@@ -199,9 +199,9 @@ export default function SocietyCard() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-//                       <ConditionalLink id={soc.key} >
-//                         <Button color="secondary" size="small">View</Button>
-//                       </ConditionalLink>
+                        <ConditionalLink id={soc.key} >
+                          <Button color="secondary" size="small">View</Button>
+                        </ConditionalLink>
                       {/* <Button size="small">Edit</Button> */}
                     </CardActions>
                   </Card>
