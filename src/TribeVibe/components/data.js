@@ -17,7 +17,7 @@ const society = [{
 {
     key:4,
     "name" : "FAPS",
-    "img" : ["./TribeVibe/Assets/socieites/faps/faps-1.jpg", "./TribeVibe/Assets/socieites/faps/faps-2.jpg", "./TribeVibe/Assets/socieites/faps/faps-3.jpg", "./TribeVibe/Assets/socieites/faps/faps-4.jpg", "./TribeVibe/Assets/socieites/faps/faps-5.jpg", "./TribeVibe/Assets/socieites/faps/faps-6.jpg", "./TribeVibe/Assets/socieites/faps/faps-7.jpg"],
+    "img" : ["./TribeVibe/Assets/socieites/faps/faps-1.jpg", "./TribeVibe/Assets/socieites/faps/faps-2.jpeg", "./TribeVibe/Assets/socieites/faps/faps-3.jpg", "./TribeVibe/Assets/socieites/faps/faps-4.jpg", "./TribeVibe/Assets/socieites/faps/faps-5.jpg", "./TribeVibe/Assets/socieites/faps/faps-6.jpg", "./TribeVibe/Assets/socieites/faps/faps-7.png"],
 //     "img2" : "./TribeVibe/Assets/socieites/faps/faps-2.jpg",
 //     "img3" : "./TribeVibe/Assets/socieites/faps/faps-3.jpg",
 //     "img4" : "./TribeVibe/Assets/socieites/faps/faps-4.jpg",
