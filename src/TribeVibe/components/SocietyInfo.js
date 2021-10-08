@@ -51,7 +51,13 @@ function Soc() {
   const socToDis = society[societyKey]
   console.log(socToDis)
 
-  let list = socToDis.img.map((item, index) => (<ImgWrapper key={index}><Img src={item} alt="Image"/></ImgWrapper>))
+  let list = socToDis.img.map((item, index) => {
+
+    return(<ImgWrapper key={index}><Img src={item} alt="Image"/></ImgWrapper>
+    // return (
+    //   <img src={item} />
+    // )
+  )})
   console.log(socToDis)
   return <Container> 
     <Wrapper>
